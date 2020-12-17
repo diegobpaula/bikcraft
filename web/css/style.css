@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* Estilo Gerais */
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background: #fec63e;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+}
+
+.header_menu {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 26px;
+}
+
+.header_menu ul li a {
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+    color: #ffffff;
+}
+
+/* Introdução */
