@@ -23,8 +23,28 @@ p {
   letter-spacing: 0.1em;
 }
 
-.btn:hover{
+.btn:hover {
   color: #ffffff;
+}
+
+.subtitulo {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitulo::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000000;
+  margin: 8px auto;
 }
 
 /* Header */
@@ -34,6 +54,7 @@ p {
   padding: 10px 0;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 
 .header_menu {
@@ -106,4 +127,51 @@ p {
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 0.1em;
+}
+
+/* Produtos */
+.produtos {
+  padding: 60px 0;
+}
+
+.produtos_lista li {
+  background: #fec63e;
+  text-align: center;
+}
+
+.produtos_lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 8px;
+}
+
+.produtos_lista li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.produtos_lista li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000000;
+  margin: 4px auto;
+}
+
+.produtos_icone {
+  background: #000000;
+  padding: 20px;
+}
+
+.call {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+}
+
+.call p {
+  margin-bottom: 20px;
 }
