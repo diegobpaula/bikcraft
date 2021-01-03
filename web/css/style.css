@@ -175,3 +175,31 @@ p {
 .call p {
   margin-bottom: 20px;
 }
+
+/* Portfólio */
+.portfolio {
+  width: 100%;
+  background: #000000;
+  padding: 40px 0;
+}
+
+.portfolio .subtitulo {
+  color: #fec63e;
+}
+
+.portfolio .subtitulo::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fec63e;
+  margin: 8px auto;
+}
+
+.portfolio_lista li:last-child {
+  margin-top: 20px;
+}
+
+.portfolio .call p {
+  color: #ffffff;
+}
