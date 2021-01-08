@@ -2,7 +2,7 @@
 
 /* Estilo Gerais */
 body {
-  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -51,6 +51,25 @@ img {
   margin: 8px auto;
 }
 
+.subtitulo-interno {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.subtitulo-interno::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000000;
+  margin: 8px 0;
+}
+
 /* Header */
 .header {
   width: 100%;
@@ -83,6 +102,41 @@ img {
 
 .header_menu ul li a:hover {
   color: #ffffff;
+}
+
+.header_menu ul li a.menu-ativo {
+  color: #ffffff;
+}
+
+
+
+
+
+/* Introdução Interna */
+.introducao-interna {
+  width: 100%;
+  margin-top: 82px;
+  height: 160px;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 28px;
+}
+
+.introducao-interna h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 42px;
+  letter-spacing: 0.1rem;
+}
+
+.introducao-interna h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffffff;
+  margin: 6px auto 14px auto;
 }
 
 /* Introdução */
@@ -231,6 +285,7 @@ img {
 
 .qualidade_lista {
   padding-top: 40px;
+  overflow: hidden; /* clear para limpar flutuação*/
 }
 
 .qualidade_lista li {
@@ -288,7 +343,7 @@ img {
   color: #fec63e;
   text-transform: uppercase;
   font-weight: normal;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .footer h3::after {
