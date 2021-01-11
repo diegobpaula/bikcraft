@@ -72,3 +72,115 @@
 .produto-info ul li:nth-child(even) {
   margin-left: 2px;
 }
+
+/* Orçamento */
+.orcamento {
+  background: #000000;
+  width: 100%;
+  margin-top: 60px;
+  padding: 40px 0;
+}
+
+.orcamento h2 {
+  color: #fec63e;
+  padding-top: 40px;
+}
+
+.orcamento h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fec63e;
+  margin: 4px auto 8px auto;
+}
+
+.form {
+  padding-right: 60px;
+}
+
+.form label {
+  display: block;
+  color: #ffffff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  border: 2px solid #fec63e;
+  border-radius: 20px;
+  background: none;
+  color: #ffffff;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  outline: none;
+  font-size: 14px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.form textarea {
+  display: block;
+  width: 100%;
+  height: 120px;
+  border: 2px solid #fec63e;
+  border-radius: 20px;
+  background: none;
+  color: #ffffff;
+  padding: 4px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 14px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.form button {
+  padding: 8px 20px;
+  border: none;
+}
+
+.orcamento-dados {
+  color: #ffffff;
+}
+
+.orcamento-dados h3 {
+  color: #fec63e;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+.orcamento-dados span {
+  display: block;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.dados-email {
+  margin-bottom: 32px;
+}
+
+.orcamento-dados ul {
+  padding-right: 40px;
+}
+
+.orcamento-dados ul li {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 10px 10px;
+}
+
+.orcamento-dados ul li:nth-child(odd) {
+  background: #1d1d1d;
+  margin-left: 480px;
+}
+
+.orcamento-dados p {
+  margin: 8px 0;
+}
