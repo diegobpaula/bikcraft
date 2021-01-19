@@ -13,6 +13,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%; /* se adapta dentro do contéudo */
 }
 
 .btn {
@@ -190,6 +191,10 @@ img {
 .produtos_lista li {
   background: #fec63e;
   text-align: center;
+}
+
+.produtos_lista li img { /* ajusta o icone */
+  margin: 0 auto;
 }
 
 .produtos_lista li h3 {
