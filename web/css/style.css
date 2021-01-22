@@ -275,7 +275,7 @@ img {
   background: url(../img/linhas.svg) no-repeat center;
   position: absolute;
   top: 209px;
-  left: 164px;
+  right: 162px;
   z-index: -1;
 }
 
