@@ -18,6 +18,33 @@
     width: 24px;
     height: 24px;
   }
+
+  /* Produtos */
+  .produto-item h2 {
+    top: -150px;
+  }
+
+  .produto-icone {
+    padding: 42px 0;
+  }
+
+  .produto-info p {
+    font-size: 14px;
+    padding: 10px 20px;
+    height: 122px;
+  }
+
+  .produto-info ul li {
+    font-size: 14px;
+    width: 181px;
+    height: 49px;
+  }
+
+  /* Orçamento */
+  .orcamento-dados ul li:nth-child(odd) {
+    background: #1d1d1d;
+    margin-left: 380px;
+  }
 }
 
 /*Estilo para smartphone*/
@@ -93,5 +120,46 @@
   .missao-sobre ul li {
     font-size: 16px;
     line-height: 32px;
+  }
+
+  /* Produtos */
+  .produto-item h2 {
+    top: -100px;
+    margin-bottom: -68px;
+  }
+
+  .produto-icone {
+    padding: 28px 0;
+  }
+
+  .produto-info p {
+    font-size: 12px;
+    padding: 10px 20px;
+    height: 122px;
+  }
+
+  .produto-info ul li {
+    font-size: 12px;
+    width: 149px;
+    height: 49px;
+  }
+
+  /* Orçamento */
+  .form {
+    padding-right: 0px;
+  }
+
+  .orcamento-dados ul {
+    padding-right: 0px;
+  }
+
+  .orcamento-dados ul li:nth-child(odd) {
+    margin-left: 10px;
+  }
+
+  /* Contato */
+  .contato-form {
+    padding-right: 0px;
+    margin-bottom: 40px;
   }
 }
