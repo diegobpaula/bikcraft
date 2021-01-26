@@ -58,6 +58,7 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 25px;
+  padding-left: 480px;
 }
 
 .contato-dados span {
@@ -65,6 +66,7 @@
   font-size: 16px;
   line-height: 30px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+  padding-left: 480px;
 }
 
 .contato-dados span:nth-of-type(even) {
@@ -73,6 +75,7 @@
 
 .contato-dados ul {
   margin: 10px;
+  padding-left: 480px;
 }
 
 .contato-dados ul li {

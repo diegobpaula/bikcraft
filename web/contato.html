@@ -32,22 +32,34 @@
 
     <section class="introducao-interna interna-contato">
       <div class="container">
-        <h1>Contato</h1>
-        <p>tire suas dúvidas com a gente</p>
+        <h1 data-anime="400" class="fadeInDown">Contato</h1>
+        <p data-anime="600" class="fadeInDown">tire suas dúvidas com a gente</p>
       </div>
     </section>
 
-    <section class="contato container">
-      <form id="form-orcamento" class="contato-form grid-8">
+    <section class="contato container fadeInDown" data-anime="400">
+      <form
+        id="form-orcamento"
+        method="POST"
+        action="./enviar.php"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 "
+        class="contato-form grid-8 formphp"
+      >
         <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome" />
-        <label for="email">E-mail</label>
-        <input type="text" name="email" id="email" />
+        <input type="text" name="nome" id="nome" required />
+        <label for="email"> E-mail</label>
+        <input type="email" name="email" id="email" required />
         <label for="telefone">Telefone</label>
         <input type="text" name="telefone" id="telefone" />
-        <label for="espec">Especificações</label>
-        <textarea name="espec" id="espec" cols="30" rows="10"></textarea>
-        <button type="submit" class="btn">Enviar</button>
+        
+        <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+        <input type="text" class="nao-aparece" name="leaveblank">
+
+        <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+        <input type="text" class="nao-aparece" name="dontchange" value="http://">
+  
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+        <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
       </form>
       <div class="contato-dados" class="grid-8">
         <h3>Dados</h3>
@@ -142,5 +154,8 @@
       </div>
     </footer>
     <!-- close footer -->
+    <script src="js/simple-anime.js"></script>
+    <script src="js/simple-form.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
