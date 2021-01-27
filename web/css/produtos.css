@@ -178,7 +178,7 @@
 
 .orcamento-dados ul li:nth-child(odd) {
   background: #1d1d1d;
-  margin-left: 480px;
+  /*margin-left: 480px;*/
 }
 
 .orcamento-dados p {
