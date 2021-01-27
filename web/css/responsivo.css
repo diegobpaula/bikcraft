@@ -162,4 +162,16 @@
     padding-right: 0px;
     margin-bottom: 40px;
   }
+
+  .contato-dados ul {
+    padding-left: 0px;
+  }
+
+  .contato-dados h3 {
+    padding-left: 0px;
+  }
+
+  .contato-dados span {
+    padding-left: 0px;
+  }
 }
